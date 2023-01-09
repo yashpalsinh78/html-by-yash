@@ -1,0 +1,70 @@
+Q-1 Add a "tooltip" to the paragraph below with the text "Dot Batch".
+
+
+
+Q-2 Add six headings to the document with the text "CodeHelp". 
+   Start with the most important heading (the largest) and end with the least important heading (the smallest).
+   <html>
+<body>
+<p>CodeHelp</p>
+<p>CodeHelp</p>
+<p>CodeHelp</p>
+<p>CodeHelp</p>
+<p>CodeHelp</p>
+<p>CodeHelp</p>
+</body>
+</html>
+
+ANS:- <h1>CodeHelp</h1>
+<h2>CodeHelp</h2>
+<h3>CodeHelp</h3>
+<h4>CodeHelp</h4>
+<h5>CodeHelp</h5>
+<h6>CodeHelp</h6>
+
+Q-3 Complete this document with proper element end tags.
+<h1>This is a Heading
+<p>This is a paragraph.</h1>
+
+ANS:- <h1>This is a Heading</h1>
+        <p>This is a paragraph.</p>
+        
+Q-4 Wrap this poem around such HTML tags that will preserve all spaces and line-breaks when the element is displayed.
+<poem>
+    My house is red - a little house;
+    A happy child am I:
+    I laugh and play the whole day long,
+    I hardly ever cry.
+
+    I have a tree, a green, green tree,
+    To shade me from the sun;
+    And under it I often sit,
+    When all my play is done.
+</poem>
+ANS:-<pre>
+        My house is red - a little house;
+        A happy child am I:
+        I laugh and play the whole day long,
+        I hardly ever cry.
+    
+        I have a tree, a green, green tree,
+        To shade me from the sun;
+        And under it I often sit,
+        When all my play is done.
+    </pre>
+    
+ Q-5 Use the HTML image attributes to set the size of the image to 250 pixels high and 400 pixels wide.For this image (https://pranayy.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F33f2e205-3b16-4317-b5f4-f324a0b3663e%2FUntitled.png?id=fa89d8e7-f379-447e-b7af-e3f6699a481c&table=block&spaceId=8167bb3d-4af1-4c03-88aa-8ec78aa3e9da&width=1070&userId=&cache=v2)
+ <img src="https://bit.ly/3I7Q44c">
+ ANS:-
+ <img src="https://bit.ly/3I7Q44c" height="250px" width="400px">
+ 
+ Q-6 Add a submit button to the form, and specify that it should go to "/submit.html". (https://pranayy.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F056459ee-7739-4b92-8873-34a9df0d50ef%2FUntitled.png?id=9c90504f-c2cb-44e6-8464-f6dbde820199&table=block&spaceId=8167bb3d-4af1-4c03-88aa-8ec78aa3e9da&width=2000&userId=&cache=v2)
+ <form submit="/submit.html">
+    Email: <input type="email" name="email">
+    <p>Submit</p>
+</form>
+ANS:-
+ <form submit="/submit.html">
+        Email: <input type="email" name="email">
+  <button type="submit" formaction="/submit.html">Submit</button>
+    </form>
