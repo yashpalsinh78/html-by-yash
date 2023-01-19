@@ -10,7 +10,7 @@
     <h1>Welcome to Yashpal's Form</h1>
     <h2>Contact Us Form</h2>
     
-    <form action="">
+    <form action="https://www.thecodehelp.in">
         <label for="name">Name</label>
     <input type="text"
     name="name" id="name" placeholder="Enter Your Name">
