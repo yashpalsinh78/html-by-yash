@@ -1,4 +1,15 @@
 Q-1 Add a "tooltip" to the paragraph below with the text "Dot Batch".
+    <p tooltip="Dot Batch">Web Development Master Course</p>
+    
+    <!-- TOOLTIP:-Tooltip is a concept used in HTML for showing some extra information about the specifically selected element. This can be done on the mouse hover
+    effect whenever the user moves the mouse over an element that is using a tooltip to display specified information about that element.
+    It is used as an inline element like span, sometimes with class tooltip text. One can set a position to that tool tipped text by using CSS, which helps
+    us to define some style and position to our tooltip. Using a tooltip to our WebPages is helps us do more interaction with the user because it gives 
+    short information of included elements. --!>
+
+
+
+ANS:-<p title="Dot Batch">Web Development Master Course</p>
 
 
 
